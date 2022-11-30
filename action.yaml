@@ -4,9 +4,6 @@ inputs:
   path:
     description: 'path of the api spec root file'
     default: 'api.yaml'
-outputs:
-  validate-result: 
-    description: 'Result of validation process'
 runs:
   using: 'docker'
   image: 'Dockerfile'
